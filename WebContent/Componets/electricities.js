@@ -174,13 +174,14 @@ function onItemDeleteComplete(response, status)
 	function validateItemForm()
 	{
 	
-	// fullName
+	// Full Name-----------------------
 	
 	if ($("#fullName").val().trim() == "")
 	 {
 		 return "Insert full name.";
 	 }
-	// NAME
+	 
+	// NIC No.-------------------------
 	
 	if ($("#nationalIdentityCardNo").val().trim() == "")
 	 {
@@ -188,15 +189,15 @@ function onItemDeleteComplete(response, status)
 	 }
 	 
 	 
-	// PRICE-------------------------------
+	// Phone Number-------------------------------
 	
 	if ($("#phoneNumber").val().trim() == "")
 	 {
-		 return "Insert Phone Number.";
+		 return "Insert phone number.";
 	 }
 	 
 	 
-	// DESCRIPTION------------------------
+	// Email------------------------
 	
 	if ($("#email").val().trim() == "")
 	 {
@@ -204,35 +205,35 @@ function onItemDeleteComplete(response, status)
 	 }
 	 
 	  
-	// PRICE-------------------------------
+	// Service Connection Address-------------------------------
 	
 	if ($("#newElectricityConnectionAddress").val().trim() == "")
 	 {
-		 return "Insert address.";
+		 return "Insert service connection address.";
 	 }
 	 
 	  
-	// PRICE-------------------------------
+	// Postal Code of Area-------------------------------
 	
 	if ($("#postalCodeOfArea").val().trim() == "")
 	 {
-		 return "Insert postal Code Of Area.";
+		 return "Insert postal code of area.";
 	 }
 	 
 	  
-	// PRICE-------------------------------
+	// Type of Service-------------------------------
 	
 	if ($("#serviceType").val().trim() == "")
 	 {
-		 return "Insert service Type.";
+		 return "Insert type of service.";
 	 }
 	 
 	  
-	// PRICE-------------------------------
+	// Purpose of Electricity Usage-------------------------------
 	
 	if ($("#purpose").val().trim() == "")
 	 {
-		 return "Insert purpose.";
+		 return "Insert purpose of electricity usage.";
 	 }
 	 
 	return true;
